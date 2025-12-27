@@ -115,7 +115,7 @@
     />
     <link
       rel="preload"
-      href="https://w.ladicdn.com/v5/source/ladipagev3.min.js?v=1766572470135"
+      href="https://w.ladicdn.com/v5/source/ladipagev3.min.js?v=1766744465651"
       as="script"
     />
     <style id="style_ladi" type="text/css">
@@ -4001,7 +4001,6 @@
         background-image: none !important;
       }
     </style>
-    <!-- TikTok Pixel Code Start -->
     <script>
       !(function (w, d, t) {
         w.TiktokAnalyticsObject = t;
@@ -4020,9 +4019,6 @@
           'group',
           'enableCookie',
           'disableCookie',
-          'holdConsent',
-          'revokeConsent',
-          'grantConsent',
         ]),
           (ttq.setAndDefer = function (t, e) {
             t[e] = function () {
@@ -4037,11 +4033,10 @@
           return e;
         }),
           (ttq.load = function (e, n) {
-            var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
-              o = n && n.partner;
+            var i = 'https://analytics.tiktok.com/i18n/pixel/events.js';
             (ttq._i = ttq._i || {}),
               (ttq._i[e] = []),
-              (ttq._i[e]._u = r),
+              (ttq._i[e]._u = i),
               (ttq._t = ttq._t || {}),
               (ttq._t[e] = +new Date()),
               (ttq._o = ttq._o || {}),
@@ -4049,16 +4044,20 @@
             n = document.createElement('script');
             (n.type = 'text/javascript'),
               (n.async = !0),
-              (n.src = r + '?sdkid=' + e + '&lib=' + t);
+              (n.src = i + '?sdkid=' + e + '&lib=' + t);
             e = document.getElementsByTagName('script')[0];
             e.parentNode.insertBefore(n, e);
           });
-
         ttq.load('D57O32JC77UD75S4K1P0');
+        window.ladi_conversion_api = window.ladi_conversion_api || {};
+        window.ladi_conversion_api.tiktok = window.ladi_conversion_api
+          .tiktok || { pixels: [] };
+        window.ladi_conversion_api.tiktok.pixels.push('D57O32JC77UD75S4K1P0');
+        window.ladi_ttq('track', 'ViewContent');
+        window.ladi_ttq('track', 'PageView');
         ttq.page();
       })(window, document, 'ttq');
     </script>
-    <!-- TikTok Pixel Code End -->
   </head>
   <body class="lazyload">
     <svg
@@ -4071,7 +4070,7 @@
         display: none;
       "
     >
-      <symbol id="shape_ZDEeppWbOJ" viewBox="0 0 100 100">
+      <symbol id="shape_PnCtjxEbej" viewBox="0 0 100 100">
         <defs id="SHAPE27_defs">
           <linearGradient
             id="SHAPE27_mobile_gradient"
@@ -4087,7 +4086,7 @@
           ></polygon>
         </g>
       </symbol>
-      <symbol id="shape_LzxKCDeFPk" viewBox="0 0 100 100">
+      <symbol id="shape_JlxUKGLuER" viewBox="0 0 100 100">
         <g>
           <g>
             <path
@@ -4376,7 +4375,7 @@
                 class=""
                 fill="rgba(255, 222, 89, 1)"
               >
-                <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                <use xlink:href="#shape_PnCtjxEbej"></use>
               </svg>
             </div>
           </div>
@@ -4694,7 +4693,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -4715,7 +4714,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -4736,7 +4735,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -4757,7 +4756,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -4778,7 +4777,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -4822,7 +4821,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4843,7 +4842,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4864,7 +4863,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4885,7 +4884,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4906,7 +4905,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4964,7 +4963,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -4985,7 +4984,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -5006,7 +5005,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -5027,7 +5026,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -5048,7 +5047,7 @@
                             class=""
                             fill="rgba(255, 222, 89, 1)"
                           >
-                            <use xlink:href="#shape_LzxKCDeFPk"></use>
+                            <use xlink:href="#shape_JlxUKGLuER"></use>
                           </svg>
                         </div>
                       </div>
@@ -5112,7 +5111,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_LzxKCDeFPk"></use>
+                        <use xlink:href="#shape_JlxUKGLuER"></use>
                       </svg>
                     </div>
                   </div>
@@ -5133,7 +5132,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_LzxKCDeFPk"></use>
+                        <use xlink:href="#shape_JlxUKGLuER"></use>
                       </svg>
                     </div>
                   </div>
@@ -5154,7 +5153,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_LzxKCDeFPk"></use>
+                        <use xlink:href="#shape_JlxUKGLuER"></use>
                       </svg>
                     </div>
                   </div>
@@ -5175,7 +5174,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_LzxKCDeFPk"></use>
+                        <use xlink:href="#shape_JlxUKGLuER"></use>
                       </svg>
                     </div>
                   </div>
@@ -5196,7 +5195,7 @@
                         class=""
                         fill="rgba(255, 222, 89, 1)"
                       >
-                        <use xlink:href="#shape_LzxKCDeFPk"></use>
+                        <use xlink:href="#shape_JlxUKGLuER"></use>
                       </svg>
                     </div>
                   </div>
@@ -5255,7 +5254,7 @@
                         class=""
                         fill="rgba(0, 128, 55, 1)"
                       >
-                        <use xlink:href="#shape_ZDEeppWbOJ"></use>
+                        <use xlink:href="#shape_PnCtjxEbej"></use>
                       </svg>
                     </div>
                   </div>
@@ -5592,9 +5591,9 @@
                           name="form_item8"
                           required
                           type="radio"
-                          value="Mua 2 giá 460k ( tặng kèm dây lưng) + miễn ship"
+                          value="Mua 2 giá 450k ( tặng kèm dây lưng) + miễn ship"
                         /><span data-checked="false"
-                          >Mua 2 giá 460k ( tặng kèm dây lưng) + miễn ship</span
+                          >Mua 2 giá 450k ( tặng kèm dây lưng) + miễn ship</span
                         >
                       </div>
                     </div>
@@ -5886,8 +5885,8 @@
       window.lazyload_run(document, true, true);
     </script>
     <!--[if lt IE 9
-      ]><script src="https://w.ladicdn.com/v5/source/html5shiv.min.js?v=1766572470135"></script>
-      <script src="https://w.ladicdn.com/v5/source/respond.min.js?v=1766572470135"></script><!
+      ]><script src="https://w.ladicdn.com/v5/source/html5shiv.min.js?v=1766744465651"></script>
+      <script src="https://w.ladicdn.com/v5/source/respond.min.js?v=1766744465651"></script><!
     [endif]--><link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Philosopher:wght@400;700&display=swap"
       rel="stylesheet"
@@ -5917,7 +5916,7 @@
       }
     </style>
     <script
-      src="https://w.ladicdn.com/v5/source/ladipagev3.min.js?v=1766572470135"
+      src="https://w.ladicdn.com/v5/source/ladipagev3.min.js?v=1766744465651"
       type="text/javascript"
     ></script>
     <script id="script_event_data" type="application/json">
@@ -5933,22 +5932,22 @@
         "HEADLINE13": {
           "option.is_product_mapping_name_custom": true,
           "a": "headline",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION4" }]
+          "cs": [{ "dr": "action", "dw": "SECTION4", "a": "section" }]
         },
         "HEADLINE14": {
           "option.is_product_mapping_name_custom": true,
           "a": "headline",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION8" }]
+          "cs": [{ "dr": "action", "dw": "SECTION8", "a": "section" }]
         },
         "HEADLINE15": {
           "option.is_product_mapping_name_custom": true,
           "a": "headline",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION10_desc" }]
+          "cs": [{ "dr": "action", "dw": "SECTION10_desc", "a": "section" }]
         },
         "HEADLINE16": {
           "option.is_product_mapping_name_custom": true,
           "a": "headline",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION11_BUY" }]
+          "cs": [{ "dr": "action", "dw": "SECTION11_BUY", "a": "section" }]
         },
         "GALLERY1": { "a": "gallery", "ah": true, "ae": 3 },
         "HEADLINE17": {
@@ -6048,7 +6047,7 @@
         },
         "GROUP19": {
           "a": "group",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION11_BUY" }],
+          "cs": [{ "dr": "action", "dw": "SECTION11_BUY", "a": "section" }],
           "aE": true
         },
         "HEADLINE26": {
@@ -6248,6 +6247,7 @@
           "a": "form",
           "bP": "67431f0c35ee1c00123e922a",
           "bM": true,
+          "bF": "Purchase",
           "by": true,
           "bx": true
         },
@@ -6285,15 +6285,15 @@
         },
         "GROUP47": {
           "a": "group",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION11_BUY" }]
+          "cs": [{ "dr": "action", "dw": "SECTION11_BUY", "a": "section" }]
         },
         "GROUP48": {
           "a": "group",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION11_BUY" }]
+          "cs": [{ "dr": "action", "dw": "SECTION11_BUY", "a": "section" }]
         },
         "GROUP49": {
           "a": "group",
-          "cs": [{ "dr": "action", "a": "section", "dw": "SECTION11_BUY" }]
+          "cs": [{ "dr": "action", "dw": "SECTION11_BUY", "a": "section" }]
         }
       }
     </script>
@@ -6313,7 +6313,7 @@
             '694e4b5711af2c0013552019';
           window.LadiPageScript.runtime.publish_platform = 'LADIPAGE';
           window.LadiPageScript.runtime.is_mobile_only = true;
-          window.LadiPageScript.runtime.version = '1766572470135';
+          window.LadiPageScript.runtime.version = '1766744465651';
           window.LadiPageScript.runtime.cdn_url =
             'https://w.ladicdn.com/v5/source/';
           window.LadiPageScript.runtime.DOMAIN_FREE = [
@@ -6331,7 +6331,7 @@
           window.LadiPageScript.runtime.mobile_width = 420;
           window.LadiPageScript.runtime.formdata = true;
           window.LadiPageScript.runtime.tracking_button_click = true;
-          window.LadiPageScript.runtime.publish_time = 1766767139818;
+          window.LadiPageScript.runtime.publish_time = 1766845154906;
           window.LadiPageScript.runtime.lang = 'vi';
           window.LadiPageScript.run(true);
           window.LadiPageScript.runEventScroll();
@@ -6341,4 +6341,4 @@
     </script>
   </body>
 </html>
-<!--Pubssslish time: Fri, 26 Dec 2025 16:39:00 GMT--><!--LadiPage build time: Wed, 24 Dec 2025 10:34:30 GMT-->
+<!--Publish time: Sat, 27 Dec 2025 14:19:15 GMT--><!--LadiPage build time: Fri, 26 Dec 2025 10:21:05 GMT-->
